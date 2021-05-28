@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 2em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.splash{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width:480px) {
+  .form {
+    margin-top: 170px;
+
   }
+
+  /* smartphones, iPhone, portrait 480x320 phones */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login-input{
+  padding: 12px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.form-radius{
+  border-radius: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mb {
+  margin-bottom: 20px !important;
 }
